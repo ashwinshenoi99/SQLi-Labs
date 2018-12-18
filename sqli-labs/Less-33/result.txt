@@ -1,0 +1,17 @@
+ID:1
+ID:¿\' union select 1,2,3-- -
+ID:¿5c\'
+ID:¿\'
+ID:¿/\'
+ID:¿\\\'
+ID:bf
+ID:¿
+ID:¿\'
+ID:
+ID:¿
+ID:¿\\
+ID:¿\\\'
+ID:¿\'
+ID:\'
+ID:¿\'
+ID:¿\' or 1=1-- -

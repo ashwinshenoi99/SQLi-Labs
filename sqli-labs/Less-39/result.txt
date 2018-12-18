@@ -1,0 +1,5 @@
+ID:1
+ID:1'
+ID:1 or 1=1-- -
+ID:1; insert into users (username,password) values ('asd','asd');-- -
+ID:1;delete from users where username='asd';-- -

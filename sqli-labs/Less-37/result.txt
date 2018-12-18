@@ -1,0 +1,4 @@
+User Name:adminPassword:admin
+User Name:' or 1=1-- -Password:
+User Name:�' or 1=1-- -Password:
+User Name:%bf' or 1=1-- -Password:

